@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/picture_pantalla"
+        android:title="Img"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/subitem1"
+            android:title="Fondo pizarra"/>
+
+            <item android:id="@+id/subitem2"
+            android:title="Portaretrato"/>
+
+            <item android:id="@+id/subitem3"
+                android:title="Portaretrato 2"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/fondo_background"
+        android:title="BCKCO"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/fondo_gray"
+                android:title="Fondo Gray"/>
+
+            <item android:id="@+id/fondo_green"
+                android:title="Fondo Green"/>
+
+            <item android:id="@+id/fondo_morado"
+                android:title="Fondo Morado"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/color"
+        android:title="@string/elemento_menú_color"
+        android:icon="@drawable/ic_color_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/grosor_linea"
+        android:icon="@drawable/ic_grosor"
+        android:title="@string/elemento_menú_grosor_línea"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/borrar"
+        android:icon="@drawable/ic_grosor"
+        android:title="@string/elemento_menú_borrar"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+    android:id="@+id/guardar"
+    android:title="@string/elemento_menú_guardar"
+    android:icon="@drawable/ic_color_24dp"
+    app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+        android:id="@+id/imprimir"
+        android:title="@string/elemento_menú_imprimir"
+        android:icon="@drawable/ic_color_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

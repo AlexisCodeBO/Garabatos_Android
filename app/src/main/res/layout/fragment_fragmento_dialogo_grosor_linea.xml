@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    android:paddingLeft="@dimen/margen_horizontal"
+    android:paddingTop="@dimen/margen_vertical"
+    android:paddingRight="@dimen/margen_horizontal"
+    android:paddingBottom="@dimen/margen_vertical"
+    android:useDefaultMargins="true"
+    tools:context=".FragmentoDialogoGrosorLinea">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/grosorImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/altura_grosor_linea"
+        android:layout_gravity="fill_horizontal"
+        android:contentDescription="@string/descripcion_imageview_línea"
+        android:src="@android:drawable/button_onoff_indicator_on" />
+
+    <SeekBar
+        android:id="@+id/grosorSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="50"
+        android:progress="5"
+        />
+
+
+</GridLayout>

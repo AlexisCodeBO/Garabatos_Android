@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Garabatos</string>
+    <string name="boton_borrar">Borrar imagen</string>
+    <string name="boton_establecer_color">Establecer color</string>
+    <string name="boton_establecer_grosor_línea">Establecer grosor de línea</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="descripcion_imageview_línea">Muestra el grosor de la línea</string>
+    <string name="etiqueta_alfa">Alfa</string>
+    <string name="etiqueta_rojo">Rojo</string>
+    <string name="etiqueta_verde">Verde</string>
+    <string name="etiqueta_azul">Azul</string>
+    <string name="elemento_menú_color">Color</string>
+    <string name="elemento_menú_borrar">Borrar dibujo</string>
+    <string name="elemento_menú_grosor_línea">Grosor línea</string>
+    <string name="elemento_menú_guardar">Guardar</string>
+    <string name="elemento_menú_imprimir">Imprimir</string>
+    <string name="mensaje_borrar">¿Borrar el dibujo?</string>
+    <string name="mensaje_error_guardar">Ocurrió un error al guardar la imagen</string>
+    <string name="mensaje_guardado">Su pintura guardada se puede ver en la app Fotos seleccionando \\\\\\\'Carpetas del dispositivo\\\\\\\' del menú de esa app</string>
+    <string name="mensaje_error_impresión">Su dispositivo no soporta impresión</string>
+    <string name="explicación_permiso">Para guardar una imagen, la app requiere permiso para escribir en almacenamiento externo</string>
+    <string name="título_diálogo_color">Elija el color</string>
+    <string name="título_diálogo_grosor_línea">Elija el grosor de línea</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Alfa">Alfa</string>
+    <string name="Rojo">Rojo</string>
+    <string name="Verde">Verde</string>
+    <string name="Azul">Azul</string>
+</resources>

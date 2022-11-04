@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:paddingLeft="@dimen/margen_horizontal"
+    android:paddingTop="@dimen/margen_vertical"
+    android:paddingRight="@dimen/margen_horizontal"
+    android:paddingBottom="@dimen/margen_vertical"
+    android:useDefaultMargins="true"
+    tools:context=".ColorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/alfaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:text="@string/Alfa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <SeekBar
+        android:id="@+id/alfaSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="255"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/rojoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:text="@string/Rojo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <SeekBar
+        android:id="@+id/rojoSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="255"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/verdeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:text="@string/Verde"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <SeekBar
+        android:id="@+id/verdeSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="255"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/azulTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:text="@string/Azul"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <SeekBar
+        android:id="@+id/azulSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="255"
+        android:progress="0" />
+
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/altura_vista_color"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal" />
+
+</GridLayout>
